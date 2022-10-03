@@ -137,11 +137,11 @@ document.querySelector(".btn--hold").addEventListener("click", function(){
  let lscore= document.querySelector(`#score--${activeplayer}`).textContent;
 
  
- if(lscore>=10)
+ if(lscore>=100)
  {
   
   let names=document.querySelector("#score--0").textContent;
-   if(names>=10)
+   if(names>=100)
    {
     document.getElementById("overlayy").textContent= `The Winner Is player ${firstpname} `;
 
